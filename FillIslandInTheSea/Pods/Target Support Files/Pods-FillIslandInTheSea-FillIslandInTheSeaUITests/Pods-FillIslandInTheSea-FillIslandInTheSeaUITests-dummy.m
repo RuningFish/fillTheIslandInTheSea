@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_FillIslandInTheSea_FillIslandInTheSeaUITests : NSObject
+@end
+@implementation PodsDummy_Pods_FillIslandInTheSea_FillIslandInTheSeaUITests
+@end

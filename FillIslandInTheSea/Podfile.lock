@@ -1,0 +1,29 @@
+PODS:
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - AFNetworking/NSURLSession (= 3.2.1)
+  - AFNetworking/Reachability (= 3.2.1)
+  - AFNetworking/Security (= 3.2.1)
+  - AFNetworking/Serialization (= 3.2.1)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Masonry
+
+SPEC CHECKSUMS:
+  AFNetworking: cb604b1c2bded0871f5f61f5d53653739e841d6b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: cf9c2b158ca4d2c40da85f10eb9ada0690df7fbb
+
+COCOAPODS: 1.10.1

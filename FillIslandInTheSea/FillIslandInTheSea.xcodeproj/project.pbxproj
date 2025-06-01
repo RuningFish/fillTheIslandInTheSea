@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0344D26A739F53A5B835CB /* libPods-FillIslandInTheSea-FillIslandInTheSeaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B21FF13EF266EBACD2E62A1 /* libPods-FillIslandInTheSea-FillIslandInTheSeaUITests.a */; };
+		595B52C7008CAB1F40DCEEF8 /* libPods-FillIslandInTheSea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F291A264F790485F0C2D65 /* libPods-FillIslandInTheSea.a */; };
+		679388EB11C9EAC46596FC57 /* libPods-FillIslandInTheSeaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D055DF365EE77411C492E410 /* libPods-FillIslandInTheSeaTests.a */; };
+		EA08D7222DEC8D73000D277C /* FITSSlpashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08D7212DEC8D73000D277C /* FITSSlpashViewController.m */; };
+		EA08D7252DEC8D7E000D277C /* FITSOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08D7242DEC8D7E000D277C /* FITSOneViewController.m */; };
+		EA08D7282DEC8D87000D277C /* FITSTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08D7272DEC8D87000D277C /* FITSTwoViewController.m */; };
+		EA08D72B2DEC8D8E000D277C /* FITSThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08D72A2DEC8D8E000D277C /* FITSThreeViewController.m */; };
+		EA08D72E2DEC8DA0000D277C /* FITSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08D72D2DEC8DA0000D277C /* FITSSettingViewController.m */; };
+		EA08D7312DEC8DA8000D277C /* FITSFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08D7302DEC8DA8000D277C /* FITSFeedbackViewController.m */; };
+		EA08D7342DEC8DC9000D277C /* FITSSelectRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08D7332DEC8DC9000D277C /* FITSSelectRootController.m */; };
 		EAC7CBC82DEC781C00845C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7CBC72DEC781C00845C03 /* AppDelegate.m */; };
-		EAC7CBCB2DEC781C00845C03 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7CBCA2DEC781C00845C03 /* SceneDelegate.m */; };
 		EAC7CBCE2DEC781C00845C03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7CBCD2DEC781C00845C03 /* ViewController.m */; };
 		EAC7CBD12DEC781C00845C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC7CBCF2DEC781C00845C03 /* Main.storyboard */; };
 		EAC7CBD32DEC781D00845C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC7CBD22DEC781D00845C03 /* Assets.xcassets */; };
@@ -37,11 +46,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1737A0EAA505A10B24829543 /* Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.release.xcconfig"; path = "Target Support Files/Pods-FillIslandInTheSea-FillIslandInTheSeaUITests/Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19F291A264F790485F0C2D65 /* libPods-FillIslandInTheSea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FillIslandInTheSea.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B21FF13EF266EBACD2E62A1 /* libPods-FillIslandInTheSea-FillIslandInTheSeaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FillIslandInTheSea-FillIslandInTheSeaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1E08662B7B847E4B904111 /* Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.debug.xcconfig"; path = "Target Support Files/Pods-FillIslandInTheSea-FillIslandInTheSeaUITests/Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52E648DC16FD3823F08A4972 /* Pods-FillIslandInTheSea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillIslandInTheSea.release.xcconfig"; path = "Target Support Files/Pods-FillIslandInTheSea/Pods-FillIslandInTheSea.release.xcconfig"; sourceTree = "<group>"; };
+		59EAA5CBD95619404D4A5253 /* Pods-FillIslandInTheSeaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillIslandInTheSeaTests.debug.xcconfig"; path = "Target Support Files/Pods-FillIslandInTheSeaTests/Pods-FillIslandInTheSeaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85998725B5FD3A9250A7DFDC /* Pods-FillIslandInTheSea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillIslandInTheSea.debug.xcconfig"; path = "Target Support Files/Pods-FillIslandInTheSea/Pods-FillIslandInTheSea.debug.xcconfig"; sourceTree = "<group>"; };
+		D055DF365EE77411C492E410 /* libPods-FillIslandInTheSeaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FillIslandInTheSeaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA08D7202DEC8D73000D277C /* FITSSlpashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FITSSlpashViewController.h; sourceTree = "<group>"; };
+		EA08D7212DEC8D73000D277C /* FITSSlpashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FITSSlpashViewController.m; sourceTree = "<group>"; };
+		EA08D7232DEC8D7E000D277C /* FITSOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FITSOneViewController.h; sourceTree = "<group>"; };
+		EA08D7242DEC8D7E000D277C /* FITSOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FITSOneViewController.m; sourceTree = "<group>"; };
+		EA08D7262DEC8D87000D277C /* FITSTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FITSTwoViewController.h; sourceTree = "<group>"; };
+		EA08D7272DEC8D87000D277C /* FITSTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FITSTwoViewController.m; sourceTree = "<group>"; };
+		EA08D7292DEC8D8E000D277C /* FITSThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FITSThreeViewController.h; sourceTree = "<group>"; };
+		EA08D72A2DEC8D8E000D277C /* FITSThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FITSThreeViewController.m; sourceTree = "<group>"; };
+		EA08D72C2DEC8DA0000D277C /* FITSSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FITSSettingViewController.h; sourceTree = "<group>"; };
+		EA08D72D2DEC8DA0000D277C /* FITSSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FITSSettingViewController.m; sourceTree = "<group>"; };
+		EA08D72F2DEC8DA8000D277C /* FITSFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FITSFeedbackViewController.h; sourceTree = "<group>"; };
+		EA08D7302DEC8DA8000D277C /* FITSFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FITSFeedbackViewController.m; sourceTree = "<group>"; };
+		EA08D7322DEC8DC9000D277C /* FITSSelectRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FITSSelectRootController.h; sourceTree = "<group>"; };
+		EA08D7332DEC8DC9000D277C /* FITSSelectRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FITSSelectRootController.m; sourceTree = "<group>"; };
+		EA08D7352DEC8DED000D277C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EAC7CBC32DEC781C00845C03 /* FillIslandInTheSea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FillIslandInTheSea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC7CBC62DEC781C00845C03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAC7CBC72DEC781C00845C03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EAC7CBC92DEC781C00845C03 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		EAC7CBCA2DEC781C00845C03 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		EAC7CBCC2DEC781C00845C03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EAC7CBCD2DEC781C00845C03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EAC7CBD02DEC781C00845C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +84,7 @@
 		EAC7CBE82DEC781D00845C03 /* FillIslandInTheSeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FillIslandInTheSeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC7CBEC2DEC781D00845C03 /* FillIslandInTheSeaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillIslandInTheSeaUITests.m; sourceTree = "<group>"; };
 		EAC7CBEE2DEC781D00845C03 /* FillIslandInTheSeaUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillIslandInTheSeaUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FCF02103238B51D4F6A660E2 /* Pods-FillIslandInTheSeaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillIslandInTheSeaTests.release.xcconfig"; path = "Target Support Files/Pods-FillIslandInTheSeaTests/Pods-FillIslandInTheSeaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595B52C7008CAB1F40DCEEF8 /* libPods-FillIslandInTheSea.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679388EB11C9EAC46596FC57 /* libPods-FillIslandInTheSeaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0344D26A739F53A5B835CB /* libPods-FillIslandInTheSea-FillIslandInTheSeaUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39539C9A0EC9CB8F4219E64F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19F291A264F790485F0C2D65 /* libPods-FillIslandInTheSea.a */,
+				1B21FF13EF266EBACD2E62A1 /* libPods-FillIslandInTheSea-FillIslandInTheSeaUITests.a */,
+				D055DF365EE77411C492E410 /* libPods-FillIslandInTheSeaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7049A5EFE55D86691B65A06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85998725B5FD3A9250A7DFDC /* Pods-FillIslandInTheSea.debug.xcconfig */,
+				52E648DC16FD3823F08A4972 /* Pods-FillIslandInTheSea.release.xcconfig */,
+				1E1E08662B7B847E4B904111 /* Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.debug.xcconfig */,
+				1737A0EAA505A10B24829543 /* Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.release.xcconfig */,
+				59EAA5CBD95619404D4A5253 /* Pods-FillIslandInTheSeaTests.debug.xcconfig */,
+				FCF02103238B51D4F6A660E2 /* Pods-FillIslandInTheSeaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EAC7CBBA2DEC781C00845C03 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +145,8 @@
 				EAC7CBE12DEC781D00845C03 /* FillIslandInTheSeaTests */,
 				EAC7CBEB2DEC781D00845C03 /* FillIslandInTheSeaUITests */,
 				EAC7CBC42DEC781C00845C03 /* Products */,
+				B7049A5EFE55D86691B65A06 /* Pods */,
+				39539C9A0EC9CB8F4219E64F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +165,6 @@
 			children = (
 				EAC7CBC62DEC781C00845C03 /* AppDelegate.h */,
 				EAC7CBC72DEC781C00845C03 /* AppDelegate.m */,
-				EAC7CBC92DEC781C00845C03 /* SceneDelegate.h */,
-				EAC7CBCA2DEC781C00845C03 /* SceneDelegate.m */,
 				EAC7CBCC2DEC781C00845C03 /* ViewController.h */,
 				EAC7CBCD2DEC781C00845C03 /* ViewController.m */,
 				EAC7CBCF2DEC781C00845C03 /* Main.storyboard */,
@@ -115,6 +172,21 @@
 				EAC7CBD42DEC781D00845C03 /* LaunchScreen.storyboard */,
 				EAC7CBD72DEC781D00845C03 /* Info.plist */,
 				EAC7CBD82DEC781D00845C03 /* main.m */,
+				EA08D7202DEC8D73000D277C /* FITSSlpashViewController.h */,
+				EA08D7212DEC8D73000D277C /* FITSSlpashViewController.m */,
+				EA08D7232DEC8D7E000D277C /* FITSOneViewController.h */,
+				EA08D7242DEC8D7E000D277C /* FITSOneViewController.m */,
+				EA08D7262DEC8D87000D277C /* FITSTwoViewController.h */,
+				EA08D7272DEC8D87000D277C /* FITSTwoViewController.m */,
+				EA08D7292DEC8D8E000D277C /* FITSThreeViewController.h */,
+				EA08D72A2DEC8D8E000D277C /* FITSThreeViewController.m */,
+				EA08D72C2DEC8DA0000D277C /* FITSSettingViewController.h */,
+				EA08D72D2DEC8DA0000D277C /* FITSSettingViewController.m */,
+				EA08D72F2DEC8DA8000D277C /* FITSFeedbackViewController.h */,
+				EA08D7302DEC8DA8000D277C /* FITSFeedbackViewController.m */,
+				EA08D7322DEC8DC9000D277C /* FITSSelectRootController.h */,
+				EA08D7332DEC8DC9000D277C /* FITSSelectRootController.m */,
+				EA08D7352DEC8DED000D277C /* PrefixHeader.pch */,
 			);
 			path = FillIslandInTheSea;
 			sourceTree = "<group>";
@@ -143,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAC7CBF22DEC781D00845C03 /* Build configuration list for PBXNativeTarget "FillIslandInTheSea" */;
 			buildPhases = (
+				B913D4CA6B244F13D3FB3FD1 /* [CP] Check Pods Manifest.lock */,
 				EAC7CBBF2DEC781C00845C03 /* Sources */,
 				EAC7CBC02DEC781C00845C03 /* Frameworks */,
 				EAC7CBC12DEC781C00845C03 /* Resources */,
@@ -160,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAC7CBF52DEC781D00845C03 /* Build configuration list for PBXNativeTarget "FillIslandInTheSeaTests" */;
 			buildPhases = (
+				3858B355B65D9BCC526F9D9C /* [CP] Check Pods Manifest.lock */,
 				EAC7CBDA2DEC781D00845C03 /* Sources */,
 				EAC7CBDB2DEC781D00845C03 /* Frameworks */,
 				EAC7CBDC2DEC781D00845C03 /* Resources */,
@@ -178,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAC7CBF82DEC781D00845C03 /* Build configuration list for PBXNativeTarget "FillIslandInTheSeaUITests" */;
 			buildPhases = (
+				ACDD46A27FB139A0C413E151 /* [CP] Check Pods Manifest.lock */,
 				EAC7CBE42DEC781D00845C03 /* Sources */,
 				EAC7CBE52DEC781D00845C03 /* Frameworks */,
 				EAC7CBE62DEC781D00845C03 /* Resources */,
@@ -199,6 +274,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = FITS;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					EAC7CBC22DEC781C00845C03 = {
@@ -261,15 +337,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3858B355B65D9BCC526F9D9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FillIslandInTheSeaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACDD46A27FB139A0C413E151 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FillIslandInTheSea-FillIslandInTheSeaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B913D4CA6B244F13D3FB3FD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FillIslandInTheSea-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EAC7CBBF2DEC781C00845C03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EAC7CBCE2DEC781C00845C03 /* ViewController.m in Sources */,
+				EA08D72E2DEC8DA0000D277C /* FITSSettingViewController.m in Sources */,
+				EA08D72B2DEC8D8E000D277C /* FITSThreeViewController.m in Sources */,
+				EA08D7222DEC8D73000D277C /* FITSSlpashViewController.m in Sources */,
+				EA08D7312DEC8DA8000D277C /* FITSFeedbackViewController.m in Sources */,
 				EAC7CBC82DEC781C00845C03 /* AppDelegate.m in Sources */,
 				EAC7CBD92DEC781D00845C03 /* main.m in Sources */,
-				EAC7CBCB2DEC781C00845C03 /* SceneDelegate.m in Sources */,
+				EA08D7252DEC8D7E000D277C /* FITSOneViewController.m in Sources */,
+				EA08D7282DEC8D87000D277C /* FITSTwoViewController.m in Sources */,
+				EA08D7342DEC8DC9000D277C /* FITSSelectRootController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,11 +594,13 @@
 		};
 		EAC7CBF32DEC781D00845C03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85998725B5FD3A9250A7DFDC /* Pods-FillIslandInTheSea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FillIslandInTheSea/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FillIslandInTheSea/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,11 +622,13 @@
 		};
 		EAC7CBF42DEC781D00845C03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E648DC16FD3823F08A4972 /* Pods-FillIslandInTheSea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FillIslandInTheSea/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FillIslandInTheSea/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -495,6 +650,7 @@
 		};
 		EAC7CBF62DEC781D00845C03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EAA5CBD95619404D4A5253 /* Pods-FillIslandInTheSeaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +668,7 @@
 		};
 		EAC7CBF72DEC781D00845C03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF02103238B51D4F6A660E2 /* Pods-FillIslandInTheSeaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +686,7 @@
 		};
 		EAC7CBF92DEC781D00845C03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1E08662B7B847E4B904111 /* Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -544,6 +702,7 @@
 		};
 		EAC7CBFA2DEC781D00845C03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1737A0EAA505A10B24829543 /* Pods-FillIslandInTheSea-FillIslandInTheSeaUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

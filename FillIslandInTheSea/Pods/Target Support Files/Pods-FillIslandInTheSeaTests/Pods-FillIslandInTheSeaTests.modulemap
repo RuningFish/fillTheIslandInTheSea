@@ -1,0 +1,6 @@
+framework module Pods_FillIslandInTheSeaTests {
+  umbrella header "Pods-FillIslandInTheSeaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
