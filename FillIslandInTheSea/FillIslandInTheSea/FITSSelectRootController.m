@@ -20,11 +20,11 @@
     UINavigationController *nav_1 = [[UINavigationController alloc] initWithRootViewController:vc_1];
     
     FITSTwoViewController *vc_2 = [FITSTwoViewController new];
-    vc_2.title = @"我的花园";
+    vc_2.title = @"海床冲刷";
     UINavigationController *nav_2 = [[UINavigationController alloc] initWithRootViewController:vc_2];
     
     FITSThreeViewController *vc_3 = [FITSThreeViewController new];
-    vc_3.title = @"设置";
+    vc_3.title = @"围堤沉降";
     UINavigationController *nav_3 = [[UINavigationController alloc] initWithRootViewController:vc_3];
     
     FITSSettingViewController *vc_4 = [FITSSettingViewController new];

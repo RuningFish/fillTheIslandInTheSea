@@ -103,14 +103,14 @@
         message = [NSString stringWithFormat:@"%@%@",[obj[@"type"] isEqualToString:@"slider"] ? @"请选择" :@"请输入",obj[@"title"]];
     } else {
         title = @"计算结果";
-        CGFloat result_1 = 1.0f;
+        CGFloat result_two = 1.0f;
         
         for (int i = 0; i < self.fits_two_item_value_list.count; i ++) {
             CGFloat value = [self.fits_two_item_value_list[i] floatValue];
-            result_1 = result_1 * value;
+            result_two = result_two * value;
         }
         
-        message = [NSString stringWithFormat:@"海床冲刷深度: %.2lf m",result_1 / 570000];
+        message = [NSString stringWithFormat:@"海床冲刷深度: %.2lf m",result_two / 670000];
     }
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title
@@ -166,9 +166,6 @@
         item_max_label.textAlignment = NSTextAlignmentRight;
         item_max_label.font = [UIFont systemFontOfSize:13];
         item_max_label.tag = 1001;
-        
-//        item_min_label.backgroundColor = [UIColor redColor];
-//        item_max_label.backgroundColor = [UIColor redColor];
         
         item_view.frame = CGRectMake(frame.origin.x, frame.origin.y, frame.size.width, CGRectGetMaxY(item_max_label.frame) + 5);
     } else {
