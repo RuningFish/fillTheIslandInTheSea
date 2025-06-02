@@ -18,7 +18,6 @@
 		EA08D7312DEC8DA8000D277C /* FITSFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08D7302DEC8DA8000D277C /* FITSFeedbackViewController.m */; };
 		EA08D7342DEC8DC9000D277C /* FITSSelectRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08D7332DEC8DC9000D277C /* FITSSelectRootController.m */; };
 		EAC7CBC82DEC781C00845C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7CBC72DEC781C00845C03 /* AppDelegate.m */; };
-		EAC7CBCE2DEC781C00845C03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7CBCD2DEC781C00845C03 /* ViewController.m */; };
 		EAC7CBD12DEC781C00845C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC7CBCF2DEC781C00845C03 /* Main.storyboard */; };
 		EAC7CBD32DEC781D00845C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC7CBD22DEC781D00845C03 /* Assets.xcassets */; };
 		EAC7CBD62DEC781D00845C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC7CBD42DEC781D00845C03 /* LaunchScreen.storyboard */; };
@@ -72,8 +71,6 @@
 		EAC7CBC32DEC781C00845C03 /* FillIslandInTheSea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FillIslandInTheSea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC7CBC62DEC781C00845C03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAC7CBC72DEC781C00845C03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EAC7CBCC2DEC781C00845C03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EAC7CBCD2DEC781C00845C03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EAC7CBD02DEC781C00845C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAC7CBD22DEC781D00845C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAC7CBD52DEC781D00845C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -165,8 +162,6 @@
 			children = (
 				EAC7CBC62DEC781C00845C03 /* AppDelegate.h */,
 				EAC7CBC72DEC781C00845C03 /* AppDelegate.m */,
-				EAC7CBCC2DEC781C00845C03 /* ViewController.h */,
-				EAC7CBCD2DEC781C00845C03 /* ViewController.m */,
 				EAC7CBCF2DEC781C00845C03 /* Main.storyboard */,
 				EAC7CBD22DEC781D00845C03 /* Assets.xcassets */,
 				EAC7CBD42DEC781D00845C03 /* LaunchScreen.storyboard */,
@@ -411,7 +406,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAC7CBCE2DEC781C00845C03 /* ViewController.m in Sources */,
 				EA08D72E2DEC8DA0000D277C /* FITSSettingViewController.m in Sources */,
 				EA08D72B2DEC8D8E000D277C /* FITSThreeViewController.m in Sources */,
 				EA08D7222DEC8D73000D277C /* FITSSlpashViewController.m in Sources */,
