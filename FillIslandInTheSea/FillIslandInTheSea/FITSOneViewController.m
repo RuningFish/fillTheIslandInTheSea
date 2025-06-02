@@ -2,7 +2,7 @@
 //  FITSOneViewController.m
 //  FillIslandInTheSea
 //
-//  Created by runingfish on 2025/6/1.
+//  
 //
 
 #import "FITSOneViewController.h"
@@ -83,6 +83,7 @@
     
     fits_one_scrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(fits_one_calculate_button.frame) + 30);
     
+    NSLog(@"-----------------123 ");
 }
 
 - (void)fits_one_calculate_buttonClick:(UIButton *)button{
