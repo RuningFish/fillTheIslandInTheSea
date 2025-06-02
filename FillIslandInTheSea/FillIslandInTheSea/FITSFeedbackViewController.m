@@ -36,6 +36,9 @@
     fits_feedback_confirmButton.backgroundColor = [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1];;
     fits_feedback_confirmButton.layer.cornerRadius = 10;
     fits_feedback_confirmButton.layer.masksToBounds = YES;
+    
+    
+    NSLog(@"234");
 }
 
 - (void)fits_feedback_confirmButtonClick:(UIButton *)button{
