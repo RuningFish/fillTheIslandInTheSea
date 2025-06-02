@@ -83,6 +83,7 @@
     
     fits_one_scrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(fits_one_calculate_button.frame) + 30);
     
+    NSLog(@"one ----- viewDidLoad");
 }
 
 - (void)fits_one_calculate_buttonClick:(UIButton *)button{
@@ -172,9 +173,6 @@
         item_max_label.textAlignment = NSTextAlignmentRight;
         item_max_label.font = [UIFont systemFontOfSize:13];
         item_max_label.tag = 1001;
-        
-//        item_min_label.backgroundColor = [UIColor redColor];
-//        item_max_label.backgroundColor = [UIColor redColor];
         
         item_view.frame = CGRectMake(frame.origin.x, frame.origin.y, frame.size.width, CGRectGetMaxY(item_max_label.frame) + 5);
     } else {
